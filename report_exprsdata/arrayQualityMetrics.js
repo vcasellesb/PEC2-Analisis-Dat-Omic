@@ -3,7 +3,7 @@
 // Script parameters - these are set up by R in the function 'writeReport' when copying the 
 //   template for this script from arrayQualityMetrics/inst/scripts into the report.
 
-var highlightInitial = [ false, false, false, true, false, false ];
+var highlightInitial = [ false, false, false, false, false, false ];
 var arrayMetadata    = [ [ "1", "Ctrl01", "pancreas, control diet, replicate 1", "pancreas, control diet, male Wistar rat", "Rat pancreas, control diet" ], [ "2", "Ctrl02", "pancreas, control diet, replicate 2", "pancreas, control diet, male Wistar rat", "Rat pancreas, control diet" ], [ "3", "Ctrl03", "pancreas, control diet, replicate 3", "pancreas, control diet, male Wistar rat", "Rat pancreas, control diet" ], [ "4", "Eth01", "pancreas, ethanol diet, replicate 1", "pancreas, ethanol diet, male Wistar rat", "Rat pancreas, ethanol diet" ], [ "5", "Eth02", "pancreas, ethanol diet, replicate 2", "pancreas, ethanol diet, male Wistar rat", "Rat pancreas, ethanol diet" ], [ "6", "Eth03", "pancreas, ethanol diet, replicate 3", "pancreas, ethanol diet, male Wistar rat", "Rat pancreas, ethanol diet" ] ];
 var svgObjectNames   = [ "pca", "dens" ];
 
